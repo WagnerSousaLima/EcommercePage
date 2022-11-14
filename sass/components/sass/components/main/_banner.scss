@@ -1,0 +1,14 @@
+.banner-principal{
+    .slick{
+        &-next{
+            right: 160px;
+        }
+        &-prev{
+            left: 160px;
+        }
+    }
+
+    img{
+        width: 100%;
+    }
+}

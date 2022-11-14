@@ -1,0 +1,19 @@
+.novas-colecoes {
+    @include align_center;
+    gap: 64px;
+    margin: 80px 0px;
+
+    h2 {
+        font-weight: 700;
+        font-size: 24px;
+        color: #000000;
+        margin-bottom: 16px;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #000000;
+    }
+}

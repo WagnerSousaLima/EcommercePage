@@ -1,0 +1,28 @@
+//INITIAL CONFIG
+@import 'components/config/initial-config';
+@import 'components/config/fonts';
+@import 'components/config/containers';
+@import 'components/config/slick';
+
+//MIXINS
+@import 'components/mixins/button';
+@import 'components/mixins/containers';
+
+//HEADER
+@import 'components/header/header';
+
+//PRINCIPAL
+@import 'components/main/banner';
+@import 'components/main/tipbar';
+@import 'components/main/marcas';
+@import 'components/main/mais-pedidos';
+@import 'components/main/mini-produto';
+@import 'components/main/novas-colecoes';
+
+//FOOTER
+@import 'components/footer/newsletter';
+@import 'components/footer/mapa-site';
+@import 'components/footer/barra-de-informacoes';
+
+//POPUP
+@import 'components/popup/newsletter';

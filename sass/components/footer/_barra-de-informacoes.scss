@@ -1,0 +1,14 @@
+.barra-de-informacoes{
+    @include align_center;
+    justify-content: space-between;
+    height: 85px;
+    
+    &-container{
+        background: #353535;
+    }
+
+    &-bloco{
+        @include align_center;
+        gap: 22px;
+    }
+}

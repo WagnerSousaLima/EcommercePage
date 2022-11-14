@@ -1,0 +1,57 @@
+.tipbar{
+    h2{
+        text-align:center;
+        font-size: 16px;
+        margin-top: 24px;
+        margin-bottom: 21px;
+    }
+
+    &-container{
+        display: flex;
+        justify-content: space-between;
+        gap: 15px;
+        height: 64px;
+    }
+
+    &-item{
+        width: 100%;
+        background: #EFEFEF;
+        border-radius: 4px;  
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 27px;
+        padding-right: 27px;
+        gap: 22px;
+
+        &-details{
+            width: 100%;
+
+            h3{
+                margin: 0;
+                font-size: 14px;
+                color: #353535;
+            }
+    
+            div{
+                font-size: 12px;
+            }
+        }
+
+        &:before{
+            min-width: 32px;
+            height: 32px;   
+        }
+
+        &:nth-child(1){
+            &:before{
+                content: url(../imagens/icon-mundo.png);
+            }
+        }
+        &:nth-child(2){
+            &:before{
+                content: url(../imagens/icone-casa.png);
+            }
+        }
+    }
+}

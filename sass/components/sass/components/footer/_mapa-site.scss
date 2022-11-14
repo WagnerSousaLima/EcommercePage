@@ -1,0 +1,28 @@
+.mapa-do-site {
+    @include align_center;
+    align-items: start;
+    justify-content: space-between;
+    width: 952px;
+    margin: 0 auto;
+    padding: 40px 0px 64px 0px;
+
+    ul {
+        li {
+            margin-bottom: 25px;
+
+            a {
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 18px;
+                color: #000000;
+                text-decoration: none;
+
+                b {
+                    font-weight: 700;
+                    font-size: 16px;
+                    color: #353535;
+                }
+            }
+        }
+    }
+}

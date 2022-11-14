@@ -1,0 +1,69 @@
+.popup-newsletter {
+    @include align_center;
+    width: 848px;
+    height: 529.65px;
+    background-color: #FFF;
+
+    .newsletter {
+        &-img{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            
+            img{
+                height: 531px;
+            }
+        }
+        &-form {
+            @include align_center;
+            flex-direction: column;
+            width: 100%;
+
+            &::before {
+                content: url("data:image/svg+xml,%3Csvg width='28' height='30' viewBox='0 0 28 30' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4.66659 5.14331H23.3333C24.6166 5.14331 25.6666 6.25558 25.6666 7.61501V22.4452C25.6666 23.8047 24.6166 24.9169 23.3333 24.9169H4.66659C3.38325 24.9169 2.33325 23.8047 2.33325 22.4452V7.61501C2.33325 6.25558 3.38325 5.14331 4.66659 5.14331Z' stroke='%23231F20' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M25.6666 7.61499L13.9999 16.266L2.33325 7.61499' stroke='%23231F20' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+            }
+
+            &-title {
+                font-weight: 400;
+                font-size: 12px;
+                color: #464B54;
+                text-transform: uppercase;
+                margin-top: 17px;
+                margin-bottom: 12px;
+            }
+
+            &-subtitle {
+                color: #787D83;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 23px;
+                text-align: center;
+                margin-bottom: 25px;
+            }
+
+            form {
+                @include align_center;
+                flex-direction: column;
+
+                input[type="text"] {
+                    border: 1px solid #C4C4C4;
+                    border-radius: 10px;
+                    height: 40px;
+                    width: calc(322px - 15px);
+                    padding-left: 13px;
+                }
+
+                input[type="submit"] {
+                    @include main-button;
+                    height: 40px;
+                    width: 322px;
+                    font-weight: 700;
+                    margin-top: 12px;
+                }
+            }
+        }
+    }
+}

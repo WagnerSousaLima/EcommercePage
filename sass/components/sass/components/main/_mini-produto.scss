@@ -1,0 +1,91 @@
+.mini-produto{
+    width: 308px;
+    display: flex;
+    flex-direction: column;
+
+    img{
+        cursor: pointer;
+        margin-bottom: 8px;
+    }
+    
+    .details{
+        padding-left: 27px;
+        padding-right: 27px;
+        
+        .cores{
+            @include align_center;
+            align-items: start;
+            gap: 8px;
+            
+            .cor {
+                width: 27px;
+                height: 27px;
+                border-radius: 4px;
+                cursor: pointer;
+                border: solid 1px transparent;
+
+                &:hover{
+                    border: solid 1px #353535;
+                }
+
+                &.marrom{
+                    background-color: #DEAC71;
+                }
+                &.vermelho{
+                    background-color: #D37164;
+
+                    &-escuro{
+                        background: #D84E4B;
+                    }
+                }
+                &.azul-claro{
+                    background-color: #6497D3;
+                }
+                &.azul-escuro{
+                    background-color: #3C3B79;
+                }
+                &.preto{
+                    background: #1C1A19;
+                }
+                &.cinza{
+                    &-claro{
+                        background: #EAE9E5;
+                    }
+                    &-escuro{
+                        background: #CFC9B0;
+                    }
+                }
+            }
+        }
+
+        .preco{
+            color: #353535;
+            font-weight: 700;
+            font-size: 20px;
+        }
+
+        h3{
+            color: #000000;
+            font-weight: 400;
+            font-size: 16px;
+        }
+
+        .descricao{
+            font-weight: 400;
+            font-size: 12px;
+            color: #000000;
+            opacity: 0.5;
+        }
+
+        button{
+            @include align_center;
+            justify-content: center;
+            background: #FAA500;
+            border-radius: 4px;
+            color: #FFFFFF;
+            font-size: 16px;
+            width: 100%;
+            height: 35px;
+        }
+    }
+}

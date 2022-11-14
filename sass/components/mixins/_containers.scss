@@ -1,0 +1,8 @@
+@mixin margin_section(){
+    margin-top: 74px;
+}
+
+@mixin align_center(){
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,11 @@
+@mixin main-button(){
+    font-family: "Titillium Web", sans-serif;
+    background: #faa500;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}

@@ -1,0 +1,20 @@
+.marcas{
+    @include margin_section;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &-items{
+        display: flex;
+        gap: 16px;
+        
+        img{
+            transition: filter 0.5s;
+            cursor: pointer;
+
+            &:hover{
+                filter: brightness(0.8);
+            }
+        }
+    }
+}
