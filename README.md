@@ -1,8 +1,27 @@
+<div align="center">
+<img  alt=banner-principal src="imagens/banner-readme.png">
+</div>
+<h1 align="center"> E-COMMERCE </h1>
 
-<img align="center" alt=banner-principal src="imagens/banner-readme.png">
 
-# E-Commerce 
+*Projeto feito no programa de estágio "Next-Level" da [Maeztra](https://maeztra.com/), ministrado por [Wellington Camargo](https://www.linkedin.com/in/toncamargo/) e com auxilio da equipe de desenvolvimeto da [Maeztra](https://maeztra.com/)*
 
-*Pagina fictícia de um E-Commerce utilizando os melhores métodos e tecnologias em sua construção, aprendido durante o programa de estágio Next-Level da [Maeztra](https://maeztra.com/), com as aulas de HTML, CSS, SAAS, JavaScript e JQuery ministrada por [Wellington Camargo](https://www.linkedin.com/in/toncamargo/) e com auxilio da equipe de desenvolvimeto da [Maeztra](https://maeztra.com/).* <br>
+<br>
+
+## 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- HTML, CSS e SAAS
+- JavaScript - JQuery
+<br>
+
+## 💻 Projeto
+
+Pagina fictícia de um E-Commerce utilizando os melhores métodos e tecnologias em sua construção.
+
+<br><br>
+
+## 🔖 Layout
 
 *Você pode visualizar o layout do projeto através [DESSE LINK]( https://www.figma.com/file/3RqPfS5PW9whbQNCTTaoqA/%5B2020-09%5D-MZ---Layout-Teste-de-vagas-para-time-de-Devs). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.*
