@@ -12,7 +12,7 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- HTML, CSS e SAAS
+- HTML, CSS e SASS
 - JavaScript - JQuery
 <br>
 
