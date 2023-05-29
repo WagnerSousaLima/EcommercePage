@@ -1,10 +1,8 @@
+<h1 align="center"> E-COMMERCE </h1>
 <div align="center">
 <img  alt=banner-principal src="imagens/banner-readme.png">
 </div>
-<h1 align="center"> E-COMMERCE </h1>
 
-
-*Projeto feito no programa de estágio "Next-Level" da [Maeztra](https://maeztra.com/), ministrado por [Wellington Camargo](https://www.linkedin.com/in/toncamargo/) e com auxilio da equipe de desenvolvimeto da [Maeztra](https://maeztra.com/)*
 
 <br>
 
@@ -18,7 +16,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Pagina fictícia de um E-Commerce utilizando os melhores métodos e tecnologias em sua construção.
+Pagina fictícia de um E-Commerce utilizando os melhores métodos e tecnologias em sua construção.<br>
+*Projeto feito no programa de estágio "Next-Level" da [Maeztra](https://maeztra.com/)*
 
 <br><br>
 
